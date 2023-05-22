@@ -1,0 +1,30 @@
+.campo{
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.campo label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;/*para que lo posiciones del lado horinzontal y el input se corre al renglon de abajo*/
+    margin-bottom: 8px;
+    
+}
+
+.campo input{
+    width:100% ;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 30px 20px;/*arriba y abajo de 30 y a los lados de 20px*/
+    outline-color: #6278F7; /*cuando seleccione el cuadrito se coloca de este color*/
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+.campo-color input{
+    height: 40px;
+    padding: 5px 20px;
+}
